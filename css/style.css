@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap");
+.logo {
+  display: block;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  display: inline-block;
+}
+
+nav {
+  text-align: center;
+}
+h2 {
+  font-family: "Baloo Bhai 2", cursive;
+  margin-top: 12px;
+  text-align: center;
+  display: inline-block;
+}
+body {
+  background-image: linear-gradient(#c3e0e5, #274472);
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+.container {
+  font-family: "Baloo Bhai 2", cursive;
+  background-image: url(/bg.jpg);
+  background-size: 100% auto;
+  background-position: center;
+  max-width: 950px;
+  border-radius: 5px;
+  margin: auto;
+  padding: 15px;
+  height: 70vh;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  border: 2px solid black;
+}
+.container img {
+  opacity: 0.6;
+}
+.message {
+  background-color: rgb(231, 228, 228);
+  padding: 4px 7px;
+  margin: 10px 7px;
+}
+.left {
+  float: left;
+  clear: both;
+  width: 65%;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+
+.right {
+  float: right;
+  clear: both;
+  width: 65%;
+  border-radius: 6px;
+  border: 2px solid black;
+}
+
+.center {
+  clear: both;
+  text-align: center;
+  border-radius: 6px;
+  font-weight: bold;
+}
+#send-container {
+  display: block;
+  margin: auto;
+  text-align: center;
+  max-width: 960px;
+  width: 100%;
+}
+
+#messageInp {
+  width: 90%;
+  padding: 4px 10px;
+  border: 2px solid black;
+}
+
+.btn {
+  border: 2px solid black;
+  cursor: pointer;
+  border-radius: 6px;
+  padding: 4px 10px;
+  width: 7%;
+  /* text-align: center; */
+}
